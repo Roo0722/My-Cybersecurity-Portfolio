@@ -26,12 +26,12 @@ My professional identity is defined by a rigorous approach to information organi
 
 ### 🐍 Python & Automation
 
-#### [Algorithm for Network Allow List File Updates]([link removed])
+#### [Algorithm for Network Allow List File Updates]
 *   **Description:** Developed an automated Python algorithm to manage an IP address allow list for a restricted network sub-system within a simulated healthcare organization, enforcing the principle of least privilege.
 *   **Skills Demonstrated:** File I/O operations (`with open` in read/write modes), string manipulation (`.split()`, `.join()`), iterative loops (`for`), and conditional access-control logic (`if`).
 *   **Outcome:** Streamlined regular security configuration tasks by programmatically parsing, updating, and overwriting access-control text files, significantly minimizing human error and ensuring rapid policy enforcement.
 
-#### [Two-Step Identity & Access Control Algorithm]([link removed])
+#### [Two-Step Identity & Access Control Algorithm]
 *   **Description:** Created a Python function that replicates an identity access control system by evaluating user data across synchronized datasets.
 *   **Skills Demonstrated:** Parallel list tracking, index positioning (`.index()`), element alteration (`.append()`, `.remove()`), and multi-layered nested conditional statements.
 *   **Outcome:** Built a reusable access evaluation script that verifies system approval before assessing hardware assignment mismatches, halting unapproved access processes during initial triage.
@@ -40,12 +40,12 @@ My professional identity is defined by a rigorous approach to information organi
 
 ### 🔍 Threat Hunting & Incident Response
 
-#### [Wazuh SIEM: Mail Server Brute-Force Investigation]([link removed])
+#### [Wazuh SIEM: Mail Server Brute-Force Investigation]
 *   **Description:** Simulated a real-world security analyst role to triage and investigate a high-priority brute-force alert targeting an organization's root accounts.
 *   **Skills Demonstrated:** Log aggregation analysis, keyword searching (`failed`, `root`), source IP tracking, and proactive threat hunting across multiple enterprise hosts (`mailsv`, `www1`, `www2`).
 *   **Outcome:** Successfully mapped a widespread, coordinated infrastructure attack and compiled an actionable incident report highlighting firewall blocks and account lockout mitigation strategies.
 
-#### [Network Incident Response Planning using NIST CSF](https://docs.google.com/document/d/1ivGeQjEMTYB1bObq7JIsvNdOnh6WN7piLmkkLRduoHU/edit?usp=drive_web)
+#### [Network Incident Response Planning using NIST CSF]
 *   **Description:** Modeled an incident response strategy following a network-wide DDoS attack caused by an unconfigured firewall.
 *   **Skills Demonstrated:** Framework application (NIST CSF Identify, Protect, Detect, Respond, Recover), risk analysis, log-based post-mortem analysis, and mitigation design.
 *   **Outcome:** Engineered an enterprise security roadmap introducing rate-limiting firewall rules, source IP verification to combat spoofing, real-time network monitoring, and centralized SIEM alert integration.
@@ -54,7 +54,7 @@ My professional identity is defined by a rigorous approach to information organi
 
 ### 🌐 Network Analysis & Defensive Operations
 
-#### [Network Traffic Analysis with Wireshark]([link removed])
+#### [Network Traffic Analysis with Wireshark]
 *   **Description:** Conducted an in-depth investigation of a network packet capture file (`.pcap`) to review active browsing flows, connection states, and diagnose anomalies like TCP SYN flood attacks.
 *   **Skills Demonstrated:** Network traffic filtering (`ip.addr`, `tcp.port == 80`), OSI model inspection, protocol handshake parsing (TCP 3-way handshake analysis), and device isolation.
 *   **Outcome:** Isolated malicious connection requests, diagnosed resource exhaustion vectors preventing legitimate connections, and configured immediate firewall blocks to allow machine recovery.
@@ -63,12 +63,12 @@ My professional identity is defined by a rigorous approach to information organi
 
 ### 🛢️ Enterprise SQL Database Querying
 
-#### [Relational Data Queries & Filter Combinations](https://docs.google.com/document/d/1K0Ve9xQOL4mlB63fuvFrs-OuBuxAW51gvCiN2-0yy8U/edit?usp=drive_web)
+#### [Relational Data Queries & Filter Combinations]
 *   **Description:** Executed targeted filters on enterprise datasets to resolve active system issues, track operating system vulnerabilities, and isolate asset configurations.
 *   **Skills Demonstrated:** Data retrieval (`SELECT`), condition matching (`WHERE`), logical operators, and pattern-based wildcard filtering (`LIKE %`).
 *   **Outcome:** Transformed complex data tables into actionable lists—successfully tracking out-of-date assets, identifying specific employee departmental mappings, and extracting information to support compliance notices.
 
-#### [Data Integration Using SQL Joins]([link removed])
+#### [Data Integration Using SQL Joins]
 *   **Description:** Leveraged relational database management methods to combine data across disparate tables during a network security incident audit.
 *   **Skills Demonstrated:** Inter-table lookups (`INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`) utilizing primary and foreign key constraints (`ON machines.device_id = employees.device_id`).
 *   **Outcome:** Successfully linked valid users to equipment configurations, flagged unassigned corporate hardware assets containing `NULL` fields, isolated unequipped personnel, and correlated active accounts to historical authentication records.
